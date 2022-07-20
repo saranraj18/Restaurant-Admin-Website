@@ -1,0 +1,35 @@
+.create_menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.create_menu_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 6rem;
+}
+
+.create_menu_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.create_menu_content {
+  margin-bottom: 1.5rem;
+  width: 40%;
+}
+
+.create_menu_empty {
+  text-align: center;
+}
+
+.create_menu_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

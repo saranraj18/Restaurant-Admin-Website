@@ -1,0 +1,28 @@
+.food_item {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+}
+
+.food_title {
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.food_description {
+  font-size: 14px;
+  padding: 0px 10px 0px 0px;
+}
+
+.food_price {
+  font-weight: 600;
+}

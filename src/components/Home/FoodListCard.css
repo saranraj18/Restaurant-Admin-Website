@@ -1,0 +1,13 @@
+.foodList_Card {
+  max-width: 50%;
+  margin: auto;
+  padding: 30px 42px;
+}
+
+.top_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 500;
+}

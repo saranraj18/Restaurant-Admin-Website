@@ -1,0 +1,17 @@
+.App-Header {
+  padding: 2vh;
+  text-align: center;
+}
+
+.orders_btn {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 5%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.orders_btn:hover {
+  cursor: pointer;
+}

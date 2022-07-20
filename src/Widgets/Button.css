@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: inherit;
+  padding: 0.45rem 2rem;
+  border: 1px solid #004a7c;
+  border-radius: 10px;
+  color: white;
+  background: #004a7c;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  margin: 0px 1rem;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #075d97;
+  border-color: #075d97;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: auto;
+  }
+}
